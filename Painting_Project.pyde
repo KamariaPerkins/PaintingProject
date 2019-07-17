@@ -13,11 +13,11 @@ def setup():
     
     #randomcolor
     fill(random(255), random(255), random(255))
-    rect(250, 250, 50, 50)
+    rect(250, 200, 50, 50)
     
     #eraser
     fill(255)
-    rect(250, 300, 50, 50)
+    rect(250, 250, 50, 50)
     
     
     
@@ -28,14 +28,14 @@ def draw():
     
 def mouseClicked():
     if mouseClicked:
-        if mouseX > 250 and mouseX < 300 and mouseY > 0 and mouseY < 100:
+        if mouseX > 250 and mouseX < 300 and mouseY > 100 and mouseY < 150:
             stroke(0,100,0)
     if mouseClicked:
-        if mouseX > 250 and mouseX < 300 and mouseY > 200 and mouseY < 250:
+        if mouseX > 250 and mouseX < 300 and mouseY > 150 and mouseY < 200:
             stroke(85, 107, 47)
     if mouseClicked:
-        if mouseX > 250 and mouseX < 300 and mouseY > 250 and mouseY < 300:
+        if mouseX > 250 and mouseX < 300 and mouseY > 200 and mouseY < 250:
             stroke(random(255), random(255), random(255))
     if mouseClicked:
-        if mouseX > 250 and mouseX < 300 and mouseY > 300 and mouseY < 350:
+        if mouseX > 250 and mouseX < 300 and mouseY > 250 and mouseY < 300:
             stroke(255)
